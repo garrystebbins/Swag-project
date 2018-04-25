@@ -28,7 +28,7 @@ header {
   z-index: 0;
 }
 
-header::before {
+header::after {
   background: radial-gradient(rgba(3,6,36,1) 8%,rgba(9,2,91,.68) 25.63%,rgba(78,2,90,0) 75%);
   width: 170%;
   height: 400%;
@@ -57,8 +57,8 @@ main {
   background: $page-color;
   z-index: 1;
   position: relative;
-  margin-top: -40px;
-  padding-top:2em;
+  margin-top: 0px;
+  padding-top: 1px;
   min-height: 100vh;
 }
 
@@ -84,24 +84,29 @@ main {
 h1, h2, h3 {
   color: $text-color;
   font-weight: 600;
-  margin-top:2.5em;
   margin-bottom:1em;
   line-height: 1em;
 }
-h1 {
-  margin-top:0.4em;
-  font-size: 2.618em;
-  line-height: 0.9em;
-  color: #fff;
 
-  @include bp(mid) {
-    font-size: 5em;
-  }
-  @include bp(wide) {
-    font-size: 6em;
-  }
+h1.logo {
+  width: 140px;
+  height: 100px;
+  margin-top:2em;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('/images/logo.png');
+  background-position: 0 0;
+  background-size: 140px;
+  background-repeat: no-repeat;
+  text-indent: -999px;
+  overflow: none;
 }
 
+header {
+  .container {
+    text-align: center;
+  }
+}
 
 p {
   margin-bottom: 1em;

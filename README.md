@@ -9,10 +9,10 @@ https://swag.netlify.com
 ## Development
 
 - clone the repo
-- install dependencies with by running `yarn`
-- start development server and watcher with `yarn start`
+- install dependencies by running `yarn`
+- start the development server and watcher with `yarn start`
 
 
 ## Deployment
 
-Hosted on Netlify. Deploy by pushing changes to `master`
+Hosted on [Netlify](https://www.netlify.com). Deploy by pushing changes to `master`
