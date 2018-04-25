@@ -9,7 +9,7 @@ Docs make the (tech) world go ‘round! Whether you call yourself a documentaria
 
 ![Laptop sticker](/images/laptop-sticker.jpg)
 
-We’d love to send you some stickers to celebrate your work. ~Simply~ fill out the form below and we’ll get them in the mail.
+We’d love to send you some stickers to celebrate your work. ~~Simply~~ fill out the form below and we’ll get them in the mail.
 
 (Note: our Docs Engineer [Jessica](https://twitter.com/VeryThorough) told us not to use words like simply, easily, or quickly.)
 
