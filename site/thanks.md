@@ -3,9 +3,9 @@ title: Netlify Swag
 layout: layouts/base.njk
 ---
 
-# Swag
+# Thanks for asking
 
-get some
+We'll get right on it.
 
 
 
