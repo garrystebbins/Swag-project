@@ -9,7 +9,7 @@ var runSequence = require('run-sequence');
 /*
   what goes where?
 */
-var buildSrc = "src";
+var buildSrc = "./";
 var buildDest = "dist";
 
 
@@ -58,7 +58,10 @@ gulp.task('generate', shell.task('eleventy --config=eleventy.js'));
   Watch src folder for changes
 */
 gulp.task("watch", function () {
-  gulp.watch(buildSrc + "/**/*", ["build"])
+  gulp.watch(buildSrc + "site/**/*", ["build"]);
+  gulp.watch(buildSrc + "js/**/*", ["build"]);
+  gulp.watch(buildSrc + "images/**/*", ["build"]);
+  gulp.watch(buildSrc + "scss/**/*", ["scss"]);
 });
 
 

@@ -1,12 +1,12 @@
 module.exports = function(config) {
 
-  // Add a date formatter filter to Nunjucks
-  config.addFilter("dateDisplay", require("./filters/dates.js") );
-  config.addFilter("timestamp", require("./filters/timestamp.js") );
+  // pass our js and images through to the dist
+  config.addPassthroughCopy("js");
+  config.addPassthroughCopy("images");
 
   return {
     dir: {
-      input: "src/site",
+      input: "site",
       output: "dist",
       includes: "_includes"
     },
