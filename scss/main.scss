@@ -12,6 +12,7 @@ body {
   background-color: $page-color;
   color: mix($text-color, $page-color, 70%);
   font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
   font-weight: 30;
   font-size: 16px;
   line-height: 1.8;
@@ -26,6 +27,8 @@ header {
   text-shadow: 0 2px 20px rgba(0,0,0,.16);
   height: 300px;
   z-index: 0;
+  position: relative;
+
 }
 
 header::after {
@@ -99,7 +102,7 @@ h1.logo {
   background-size: 140px;
   background-repeat: no-repeat;
   text-indent: -999px;
-  overflow: none;
+  overflow: hidden;
 }
 
 header {
