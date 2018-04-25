@@ -28,7 +28,6 @@ header {
   height: 300px;
   z-index: 0;
   position: relative;
-
 }
 
 header::after {
@@ -83,6 +82,19 @@ main {
   }
 }
 
+
+body.thanks {
+  img {
+    width: 30%;
+    margin-top: -220px;
+    margin-left: 400px;
+    padding-bottom: 2em;
+  }
+
+  h1.logo {
+    margin-left: 0px;
+  }
+}
 
 h1, h2, h3 {
   color: $text-color;
