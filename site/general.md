@@ -1,23 +1,17 @@
 ---
-title: Netlify Swag - for the docs
+title: Netlify Swag
 layout: layouts/base.njk
 ---
 
-# Deploy the docs
+# Swag for all!
 
-Docs make the (tech) world go ‘round! Whether you call yourself a documentarian, a documentation engineer, a technical writer, or something else entirely, we can’t help but admire the amazing work you do.
-
-![Laptop sticker](/images/laptop-sticker.jpg)
-
-We’d love to send you some stickers to celebrate your work. ~~Simply~~ fill out the form below and we’ll get them in the mail.
-
-(Note: our Docs Engineer [Jessica](https://twitter.com/VeryThorough) told us not to use words like simply, easily, or quickly.)
+We’d love to send you some stickers to celebrate your work. Fill out the form below and we’ll get them in the mail.
 
 
 <form name="swag-for-docs" netlify-honeypot="full-name" action="/thanks" netlify>
   <p class="honey">
     <label>Your full name: <input name="full-name"></label>
-    <input type="hidden" name="tab" id="tab" value="2">
+    <input type="hidden" name="tab" id="tab" value="1">
   </p>
   <p>
     <label for="name">Name</label>
@@ -47,9 +41,4 @@ We’d love to send you some stickers to celebrate your work. ~~Simply~~ fill ou
     <button type="submit" class="button">Request your swag</button>
   </p>
 </form>
-
-
-We also wanted to share a little something from Jessica. She gave a talk at FOSDEM recently about finding a home for your docs. [Check it out.](https://fosdem.org/2018/schedule/event/finding_a_home_for_docs/)
-
-
 

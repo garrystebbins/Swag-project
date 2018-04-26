@@ -44,7 +44,7 @@ export function handler(event, context, callback) {
         email: body.data.email,
         comments: body.data.comments
       };
-      doc.addRow("1", new_row, function(err, row){
+      doc.addRow(body.data.tab, new_row, function(err, row){
         if(err){
           console.log(err);
         } else {
