@@ -10,7 +10,7 @@ var sheet;
 
 export function handler(event, context, callback) {
 
-  return async.series([
+  async.series([
 
     // Authenticate with the Sheets API
     function setAuth(step) {
@@ -57,6 +57,10 @@ export function handler(event, context, callback) {
       if( err ) {
         console.log('Error: '+err);
       }
+      callback(null, {
+        statusCode: 200,
+        body: "serverless function finished its work."
+      })
   });
 
 
