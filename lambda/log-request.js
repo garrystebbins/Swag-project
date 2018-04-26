@@ -35,12 +35,13 @@ export function handler(event, context, callback) {
 
       console.log(`Inserting data into ${sheet.title}`);
       var new_row = {
-        name: "name",
-        address: "address",
-        zip: "zip",
-        country: "country",
-        email: "email",
-        comments: "comments"
+        date: new Date(),
+        name: body.data.name,
+        address: body.data.address,
+        zip: body.data.zip,
+        country: body.data.country,
+        email: body.data.email,
+        comments: body.data.comments
       };
       doc.addRow("1", new_row, function(err, row){
         if(err){
