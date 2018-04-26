@@ -10,7 +10,7 @@ var sheet;
 
 export function handler(event, context, callback) {
 
-  async.series([
+  return async.series([
 
     // Authenticate with the Sheets API
     function setAuth(step) {
