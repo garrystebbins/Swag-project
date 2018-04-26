@@ -39,8 +39,8 @@ We’d love to send you some stickers to celebrate your work. ~~Simply~~ fill ou
     <input type="email" name="email" id="email">
   </p>
   <p>
-    <label for="comment">Anything you’d like to share about the projects you’re working on or why you chose Netlify for docs?<small>(optional)</small></label>
-    <textarea name="comment" id="comment"></textarea>
+    <label for="comments">Anything you’d like to share about the projects you’re working on or why you chose Netlify for docs?<small>(optional)</small></label>
+    <textarea name="comments" id="comments"></textarea>
   </p>
   <p>
     <button type="submit" class="button">Request your swag</button>

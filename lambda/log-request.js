@@ -11,8 +11,6 @@ var sheet;
 export function handler(event, context, callback) {
 
   var body = JSON.parse(event.body);
-  console.log(body);
-
 
   async.series([
     function setAuth(step) {
@@ -31,8 +29,6 @@ export function handler(event, context, callback) {
       });
     },
     function insertRow(step) {
-
-
       console.log(`Inserting data into ${sheet.title}`);
       var new_row = {
         date: new Date(),
