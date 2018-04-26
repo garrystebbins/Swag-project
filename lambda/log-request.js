@@ -10,9 +10,9 @@ var sheet;
 
 export function handler(event, context, callback) {
 
-  var body = JSON.parse(event.body);
-
   async.series([
+
+    // Authenticate with the Sheets API
     function setAuth(step) {
       var creds_json = {
         client_email: process.env.CLIENT_EMAIL,
@@ -20,6 +20,8 @@ export function handler(event, context, callback) {
       }
       doc.useServiceAccountAuth(creds_json, step);
     },
+
+    // Gather and log some info about the document
     function getInfoAndWorksheets(step) {
       doc.getInfo(function(err, info) {
         if(err) {console.log(err);}
@@ -28,8 +30,11 @@ export function handler(event, context, callback) {
         step();
       });
     },
+
+    // Add a row to the sheet
     function insertRow(step) {
       console.log(`Inserting data into ${sheet.title}`);
+      var body = JSON.parse(event.body);
       var new_row = {
         date: new Date(),
         name: body.data.name,
