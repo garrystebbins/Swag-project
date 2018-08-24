@@ -7,6 +7,7 @@ layout: layouts/base.njk
 
 We’d love to send you some stickers to celebrate your work. Fill out the form below and we’ll get them in the mail.
 
+(and we love seeing those stickers jazzing up laptops and notebooks. Do show us how great they look by tweeting a photo and mentioning us.)
 
 <form name="swag-for-docs" netlify-honeypot="full-name" action="/thanks" netlify>
   <p class="honey">

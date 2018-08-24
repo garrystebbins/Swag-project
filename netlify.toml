@@ -4,7 +4,3 @@
   publish = "dist"
   NODE_ENV = "8.9.0"
 
-[[redirects]]
-  from = "/"
-  to = "/docs"
-  status = 302
