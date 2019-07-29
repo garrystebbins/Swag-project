@@ -1,7 +1,7 @@
 {
-  "name": "EleventyOne",
+  "name": "netlify-swag",
   "version": "1.0.0",
-  "description": "A project bootstrap for Eleventy sites. With pipelines for Sass, Js, and Lambdas",
+  "description": "A quick and dirty form to gather requests for Netlify swag in a helpful place",
   "author": "Phil Hawksworth",
   "license": "MIT",
   "scripts": {

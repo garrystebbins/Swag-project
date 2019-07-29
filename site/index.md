@@ -19,12 +19,28 @@ We’d love to send you some stickers to celebrate your work. Fill out the form 
     <input type="text" name="name" id="name">
   </p>
   <p>
-    <label for="address">Address</label>
-    <textarea name="address" id="address"></textarea>
+    <label for="address-1">Address line 1</label>
+    <textarea name="address-1" id="addres-1"></textarea>
+  </p>
+  <p>
+    <label for="address-2">Address line 2 (optional)</label>
+    <textarea name="address-2" id="address-2"></textarea>
+  </p>
+  <p>
+    <label for="apt-number">Apt / Suite number (optional)</label>
+    <textarea name="apt-number" id="apt-number"></textarea>
   </p>
   <p>
     <label for="zip">Zip / Postal code</label>
     <input type="text" name="zip" id="zip">
+  </p>
+  <p>
+    <label for="city">City</label>
+    <input type="text" name="city" id="city">
+  </p>
+  <p>
+    <label for="state">State, county or region</label>
+    <input type="text" name="state" id="state">
   </p>
   <p>
     <label for="country">Country</label>
