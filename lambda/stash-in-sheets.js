@@ -40,7 +40,7 @@ export function handler(event, context, callback) {
         name: body.data.name,
         apt_number: body.data.apt_number,
         address_1: body.data.address_1,
-        address_2: body.data.addres_2,
+        address_2: body.data.address_2,
         state: body.data.state,
         city: body.data.city,
         zip: body.data.zip,
