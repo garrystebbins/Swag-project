@@ -38,12 +38,17 @@ export function handler(event, context, callback) {
       var new_row = {
         date: new Date(),
         name: body.data.name,
-        address: body.data.address,
+        apt_number: body.data.aptnumber,
+        address_line_1: body.data.addressline1,
+        address_line_2: body.data.addressline2,
+        city: body.data.city,
+        state: body.data.state,
         zip: body.data.zip,
         country: body.data.country,
         email: body.data.email,
         comments: body.data.comments
       };
+
       doc.addRow(body.data.tab, new_row, function(err, row){
         if(err){
           console.log(err);

@@ -9,7 +9,7 @@ We’d love to send you some stickers to celebrate your work. Fill out the form 
 
 (and we love seeing those stickers jazzing up laptops and notebooks. Do show us how great they look by tweeting a photo and mentioning us.)
 
-<form name="swag-for-docs" netlify-honeypot="full-name" action="/thanks" netlify>
+<form name="swag-for-all" netlify-honeypot="full-name" action="/thanks" netlify>
   <p class="honey">
     <label>Your full name: <input name="full-name"></label>
     <input type="hidden" name="tab" id="tab" value="1">
@@ -19,12 +19,28 @@ We’d love to send you some stickers to celebrate your work. Fill out the form 
     <input type="text" name="name" id="name">
   </p>
   <p>
-    <label for="address">Address</label>
-    <textarea name="address" id="address"></textarea>
+    <label for="addressline1">Address line 1</label>
+    <textarea name="addressline1" id="addressline1"></textarea>
+  </p>
+  <p>
+    <label for="addressline2">Address line 2 (optional)</label>
+    <textarea name="addressline2" id="addressline2"></textarea>
+  </p>
+  <p>
+    <label for="aptnumber">Apt / Suite number (optional)</label>
+    <textarea name="aptnumber" id="aptnumber"></textarea>
   </p>
   <p>
     <label for="zip">Zip / Postal code</label>
     <input type="text" name="zip" id="zip">
+  </p>
+  <p>
+    <label for="city">City</label>
+    <input type="text" name="city" id="city">
+  </p>
+  <p>
+    <label for="state">State, county or region</label>
+    <input type="text" name="state" id="state">
   </p>
   <p>
     <label for="country">Country</label>
