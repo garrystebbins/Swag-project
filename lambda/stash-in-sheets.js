@@ -41,15 +41,13 @@ export function handler(event, context, callback) {
         apt_number: body.data.apt_number,
         address_1: body.data.address_1,
         address_2: body.data.address_2,
-        state: body.data.state,
         city: body.data.city,
+        state: body.data.state,
         zip: body.data.zip,
         country: body.data.country,
         email: body.data.email,
         comments: body.data.comments
       };
-
-      console.log('forma data :', JSON.stringify(new_row));
 
       doc.addRow(body.data.tab, new_row, function(err, row){
         if(err){
