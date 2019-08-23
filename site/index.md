@@ -12,7 +12,7 @@ We’d love to send you some stickers to celebrate your work. Fill out the form 
 <form name="swag-for-docs" netlify-honeypot="full-name" action="/thanks" netlify>
   <p class="honey">
     <label>Your full name: <input name="full-name"></label>
-    <input type="hidden" name="tab" id="tab" value="3">
+    <input type="hidden" name="tab" id="tab" value="1">
   </p>
   <p>
     <label for="name">Name</label>
