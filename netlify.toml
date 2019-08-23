@@ -1,8 +1,13 @@
 [build]
-  Functions = "functions"
+  functions = "functions"
   command = "yarn run build"
   publish = "dist"
   NODE_ENV = "8.9.0"
+
+[dev]
+  command = "yarn run start"
+  publish = "dist"
+  functions = "functions"
 
 [[redirects]]
 from = "/docs"
