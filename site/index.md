@@ -19,12 +19,12 @@ We’d love to send you some stickers to celebrate your work. Fill out the form 
     <input type="text" name="name" id="name">
   </p>
   <p>
-    <label for="address1">Address line 1</label>
-    <textarea name="address1" id="address1"></textarea>
+    <label for="addressline1">Address line 1</label>
+    <textarea name="addressline1" id="addressline1"></textarea>
   </p>
   <p>
-    <label for="address2">Address line 2 (optional)</label>
-    <textarea name="address2" id="address2"></textarea>
+    <label for="addressline2">Address line 2 (optional)</label>
+    <textarea name="addressline2" id="addressline2"></textarea>
   </p>
   <p>
     <label for="aptnumber">Apt / Suite number (optional)</label>
