@@ -9,7 +9,7 @@ We’d love to send you some stickers to celebrate your work. Fill out the form 
 
 (and we love seeing those stickers jazzing up laptops and notebooks. Do show us how great they look by tweeting a photo and mentioning us.)
 
-<form name="swag-for-docs" netlify-honeypot="full-name" action="/thanks" netlify>
+<form name="swag-for-all" netlify-honeypot="full-name" action="/thanks" netlify>
   <p class="honey">
     <label>Your full name: <input name="full-name"></label>
     <input type="hidden" name="tab" id="tab" value="1">
