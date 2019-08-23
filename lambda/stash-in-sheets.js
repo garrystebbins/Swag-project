@@ -38,9 +38,9 @@ export function handler(event, context, callback) {
       var new_row = {
         date: new Date(),
         name: body.data.name,
-        aptnumber: body.data.aptnumber,
-        addressline1: body.data.addressline1,
-        addressline2: body.data.addressline2,
+        apt_number: body.data.aptnumber,
+        address_line_1: body.data.addressline1,
+        address_line_2: body.data.addressline2,
         city: body.data.city,
         state: body.data.state,
         zip: body.data.zip,
