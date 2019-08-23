@@ -49,9 +49,6 @@ export function handler(event, context, callback) {
         comments: body.data.comments
       };
 
-
-      console.log('new_row :', new_row);
-
       doc.addRow(body.data.tab, new_row, function(err, row){
         if(err){
           console.log(err);
