@@ -3,11 +3,13 @@ title: Netlify Swag
 layout: layouts/base.njk
 ---
 
-# Swag for all!
+# Netlify stickers!
 
-We’d love to send you some stickers to celebrate your work. Fill out the form below and we’ll get them in the mail.
+Want to show the world your love for Netlify?
 
-(and we love seeing those stickers jazzing up laptops and notebooks. Do show us how great they look by tweeting a photo and mentioning us.)
+Enter your mailing address and why you love Netlify for a chance to receive a free sticker pack. We send out dozens each month!
+
+We love to see tweets of the stickers in action when you mention <a href="https://twitter.com/netlify" target="_blank">@netlify</a>!
 
 <form name="swag-for-all" netlify-honeypot="full-name" action="/thanks" netlify>
   <p class="honey">
