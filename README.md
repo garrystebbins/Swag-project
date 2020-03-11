@@ -1,10 +1,3 @@
-# swag.netlify.com
-
-A way for people to request some Netlify swag.
-
-https://swag.netlify.com
-
-
 
 ## Development
 
@@ -14,6 +7,3 @@ https://swag.netlify.com
 - visit `http://localhost:8008/`
 
 
-## Deployment
-
-Hosted on [Netlify](https://www.netlify.com). Deploy by pushing changes to `master`
